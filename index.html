@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>gogym-test</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="slider/blueberry.css">
+
+    </head>
+    <body>
+        <header>
+        	<div class="logo">
+        		<img src="img/the-gym.png" alt="" />
+        	</div>
+        	<nav>
+        		<a href="#" id="icon"></a>
+        		<ul class="animated bounceInLeft">
+        			<li class="current"><a href="#">Home</a></li>
+        			<li><a href="#">Trainers</a></li>
+        			<li><a href="#">Plans</a></li>
+        			<li><a href="#">Pricing</a></li>
+        			<li><a href="#">Facility</a></li>
+        			<li><a href="#">Contact</a></li>	
+        		</ul>
+        	</nav>
+        </header>
+        <div class="slider">
+        	<div class="blueberry">
+				<ul class="slides">
+					<li><img src="img/gym1.jpg" /></li>
+					<li><img src="img/gym2.jpg" /></li>
+				</ul>
+    		</div>
+        </div>
+        <div class="main-section clearfix">
+	        <section>
+	        	<i class="fa fa-exclamation-circle fa-4x"></i>
+	        	<h2>Best Trainers Around </h2>
+	        	<p>Here at the Gym we have the best training staff in the tri- <br>state area as we seek out and recruit talented trainers with <br>all the right certification. Come in today and have a<br> sit down with one of our trainers so we can help you meet<br> your goals in the fastest way possible!</p>
+	        </section>
+	        <section>
+	        	<i class="fa fa-question-circle fa-4x"></i>
+	        	<h2>Local/ & Conveinent</h2>
+	        	<p>Here at the Gym we have the best training staff in the tri- <br>state area as we seek out and recruit talented trainers with <br>all the right certification. Come in today and have a<br> sit down with one of our trainers so we can help you meet<br> your goals in the fastest way possible!</p>
+	        </section>
+	        <section>
+	        	<i class="fa fa-check-circle fa-4x"></i>
+	        	<h2>Best Trainers Around </h2>
+	        	<p>Here at the Gym we have the best training staff in the tri- <br>state area as we seek out and recruit talented trainers with <br>all the right certification. Come in today and have a<br> sit down with one of our trainers so we can help you meet<br> your goals in the fastest way possible!</p>
+	        </section>	
+        </div>
+		<article>
+			<img src="img/get_gym_1.jpg" alt="">
+		</article>
+		<aside>
+        	<h3>Our Group Class Schedule</h3>
+        	<h4>Studio Cycling at 8 a.m - 60 minutes</h4>
+        	<h4>Abs Sculpting at 12 p.m - 30 minutes </h4>
+        	<h4> Power Yoga at 8 a.m - 60 minutes </h4>
+        	<h4>Boot camp at 8 a.m - 60 minutes</h4>
+        	<h4>Building cycling at 8 a.m - 60 minutes</h4>
+        </aside>
+
+		<div class="clear"></div>
+		 <div class="main-section clearfix">
+	        <section>
+	        	<h2>Ladies Section</h2>
+	        	<img src="img/l1.jpg" alt="" />
+	        	<p>included in our facility ia a "ladies only " section o f the gym<br> where women can workout to themselves</p>
+	        </section>
+	        <section>
+	        	<h2>The Gym Floor</h2>
+	        	<img src="img/l2.jpg" alt="" />
+	        	<p>included in our facility ia a "ladies only " section o f the gym<br> where women can workout to themselves</p>
+	        </section>
+	        <section>
+	        	<h2>Free Weight</h2>
+	        	<img src="img/l3.jpg" alt="" />
+	        	<p>included in our facility ia a "ladies only " section o f the gym<br> where women can workout to themselves</p>
+	        </section>	
+        </div>
+        <footer class="clearfix">
+        	<section>
+        		<h5>The Gym</h5>
+        		<h6>215-555-555</h6>
+        		<p>Philadelpio, Pa 19100 <br>trainer@thegym.com</p>
+        	</section>
+        	<section>
+        		<h5>Connect With us</h5>
+        		<i class="fa fa-facebook-square fa-2x"><a href="#"></a></i>
+        		<i class="fa fa-google-plus-square fa-2x"><a href="#"></a></i>
+        		<i class="fa fa-twitter-square fa-2x"><a href="#"></a></i>
+        		<i class="fa fa-youtube-square fa-2x"><a href="#"></a></i>
+        	</section>
+        	<section>
+        		<img src="img/logo-gym-hi.png" class="foot-img" alt="">
+        	</section>
+        </footer>
+        <div class="last-foot">
+        	<p>Copoyright The Gym 2014</p>
+        </div>
+        <script src="js/jquery-3.2.1.js"></script>	
+        <script>
+        	$(window).scroll(function() {
+				if ($(this).scrollTop() > 1){  
+				    $('header').addClass("sticky");
+				  }
+				  else{
+				   $('header').removeClass("sticky");
+				 }
+			});
+        </script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script src="js/jquery.blueberry.js"></script>
+
+		<script>
+			$(window).load(function() {
+				$('.blueberry').blueberry();
+			});
+		</script>
+	</body>
+</html>

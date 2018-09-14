@@ -1,0 +1,201 @@
+/**------------------------------------**/
+
+			.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/**------------------------------------**/
+.clear{
+	clear: both;
+}
+ul,ol{
+	list-style-type: none;
+}
+html,body{
+	font-family: arial;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+p{
+	line-height: 20px;
+	font-size: 13.5px;
+}
+header{
+	background-color: #873131;
+	position: fixed;
+	right: 0;
+	left: 0;
+	position: 100%;
+	z-index: 99990;
+}
+header.sticky{
+	background-color: #873131;
+}
+.logo{
+	width: 100%; 
+}
+.logo img{
+	float: left;
+	margin: 20px 0 0 30px;
+}
+#icon{
+	background-image: url(../img/icon.png);
+	width: 74px;
+	height: 52px;
+	position: absolute;
+	right: 16px	;
+	top: 0;
+	display: none;
+}
+nav ul{
+	float: right;
+	margin-right: 30px;
+}
+nav ul li{
+	display: inline-block;
+	margin-left: 20px;
+	line-height: 85px;
+}
+nav ul li a{
+	color: #FFF;
+	font-weight: bold;
+}
+nav ul li a:hover , nav ul li.current a{
+	text-decoration: underline;
+}
+.blueberry { max-width: 960px; }
+.slider{
+	padding:  120px 0 30px;	
+}
+section{
+	width: 30%;
+	margin: 1.6%;
+	float: left;
+	text-align: center;
+	color: #555555;
+}
+section img{
+	width: 100%;
+}
+h2{
+	margin: 32px 0 28px;
+}
+
+article{
+	width: 50%;
+	float: left;	
+	margin: 5%;
+}
+article img{
+	width: 100%;
+}
+aside{
+	width: 35%;
+	float: left;
+	margin: 5% 2.5%;
+	color: #555555; 
+}
+h3{
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+h4{
+	line-height: 60px;	
+}
+footer{
+	background-color: #542a32;
+}
+h5{
+	color: white;
+	font-size:16px ;
+	margin: 20px 0 25px;
+
+}
+h6{
+	color: white;
+	font: 15px;
+	margin: 36px;
+
+}
+footer p{
+	color: white;
+}
+footer i{
+	color: white;
+}
+footer img{
+	width: 60%;
+}
+.last-foot{
+	text-align: center;
+	padding: 20px;
+	color: #FFF;
+	background-color: #3d3d3d; 
+}
+.last-foot p{
+	font-size: 16px;
+}
+@media only screen and (max-width: 768px){
+	nav ul{
+		width:55%;
+		position: absolute;
+		top: 52px;
+		right: -11px;
+		background-color: darkorange;
+		display: none;
+	}
+	nav ul li{
+		text-align: center;
+		width: 100%;
+		text-align: center;
+		line-height: 50px;
+		margin-left: 0;
+	}
+	nav ul li a{
+		color: brown;
+	}
+	nav:hover ul{
+		display: inline-block;
+	}
+	#icon{
+		display: block;
+	}
+	section{
+		width: 100%;
+		margin: 20px 0;
+	}
+	section img{
+		width: 80%;
+	}
+	.foot-img{
+		width: 30%;
+	}
+	footer{
+		background-color: blue;
+	}
+	article{
+		width: 100%;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	aside{
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+}
